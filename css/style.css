@@ -849,3 +849,77 @@ span{
     font-weight: 400;
     line-height: 26px;
 }
+
+
+
+.reveal__page {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+.reveal__conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reveal__element {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.reveal__text {
+    width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reveal__big {
+    width: 100%;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.reveal__lorem {
+    width: 100%;
+    height: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #818181;
+}
+.reveal__learn {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.reveal__button {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #FF5050;
+}
+.reveal__img {
+    width: 700px;
+    height: 100%;
+    background-color: #F1F4F9;
+    display: flex;
+    align-items: center;
+}
+.reveal__img-block {
+    width: 100%;
+    height: 430px;
+    background: url(../img/reveal.png);
+}
