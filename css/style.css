@@ -825,6 +825,128 @@ span{
 .grey {
         background: url(../img/greytsh.png);
 }
+
+
+.reveal__page {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+.reveal__conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reveal__element {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.reveal__text {
+    width: 420px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reveal__big {
+    width: 100%;
+    height: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+}
+.reveal__lorem {
+    width: 100%;
+    height: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #818181;
+}
+.reveal__learn {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+.reveal__button {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    background-color: #FF5050;
+}
+.reveal__img {
+    width: 700px;
+    height: 100%;
+    background-color: #F1F4F9;
+    display: flex;
+    align-items: center;
+}
+.reveal__img-block {
+    width: 100%;
+    height: 430px;
+    background: url(../img/reveal.png);
+}
+
+
+
+
+
+.man__page {
+    width: 100%;
+    height: 940px;
+    display: flex;
+    justify-content: center;
+    background: url(../img/man.png);
+}
+.man__conteiner {
+    display: flex;
+    align-items: center;
+}
+.man__text {
+    width: 390px;
+    height: 320px;
+    bottom: 300px;
+    display: grid;
+    grid-template: 50px 90px 80px / 1fr;
+}
+.man__text-go {
+    color: white;
+}
+.man__text-big {
+    color: white;
+}
+.man__text_mar {
+    color: white;
+}
+.man__shop {
+    display: flex;
+    align-items: flex-end;
+}
+.man__button {
+    width: 150px;
+    height: 60px;
+    background-color: #FF5050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
 .select__footer {
     width: 100%;
     height: 140px;
@@ -910,76 +1032,4 @@ span{
     color: #0D0D0D;
     opacity: 0.4;
     text-transform: uppercase;
-}
-
-.reveal__page {
-    width: 100%;
-    height: 750px;
-    display: flex;
-    justify-content: center;
-}
-.reveal__conteiner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.reveal__element {
-    width: 100%;
-    height: 550px;
-    display: flex;
-    justify-content: space-between;
-}
-.reveal__text {
-    width: 420px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.reveal__big {
-    width: 100%;
-    height: 150px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 55px;
-}
-.reveal__lorem {
-    width: 100%;
-    height: 300px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #818181;
-}
-.reveal__learn {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: flex-end;
-}
-.reveal__button {
-    width: 170px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    background-color: #FF5050;
-}
-.reveal__img {
-    width: 700px;
-    height: 100%;
-    background-color: #F1F4F9;
-    display: flex;
-    align-items: center;
-}
-.reveal__img-block {
-    width: 100%;
-    height: 430px;
-    background: url(../img/reveal.png);
 }
