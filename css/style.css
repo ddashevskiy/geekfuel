@@ -923,3 +923,60 @@ span{
     height: 430px;
     background: url(../img/reveal.png);
 }
+
+
+
+
+
+.man__page {
+    width: 100%;
+    height: 940px;
+    display: flex;
+    justify-content: center;
+    background: url(../img/man.png);
+}
+.man__conteiner {
+    display: flex;
+    align-items: center;
+}
+.man__text {
+    width: 390px;
+    height: 320px;
+    bottom: 300px;
+    display: grid;
+    grid-template: 50px 90px 80px / 1fr;
+}
+.good__text {
+}
+.man__text-go {
+    color: white;
+}
+.good__text-go {
+}
+.man__text-big {
+    color: white;
+}
+.good__text-big {
+}
+.man__text_mar {
+    color: white;
+}
+.good__text_mar {
+}
+.man__shop {
+    display: flex;
+    align-items: flex-end;
+}
+.man__button {
+    width: 150px;
+    height: 60px;
+    background-color: #FF5050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
