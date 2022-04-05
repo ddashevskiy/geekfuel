@@ -850,7 +850,7 @@ span{
 }
 
 .swiper{
-    height: 260px;
+    height: 526px;
     width: 120%;
     min-width: 0;
     display: flex;
@@ -864,21 +864,29 @@ span{
 
 .swiper-wrapper{
     position: relative;
-    left: -70px;
+    left: -130px;
 }
 
 .slide-container {
-    width: 660px;   
+    width: 595px;   
     height: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 100px ;
 }
 
 .swiper-slide {
-    height: 260px;
-    width: 660px; 
+    
+     
+}
+
+.swiper-pagination {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
 }
 
 .slide-title {

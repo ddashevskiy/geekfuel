@@ -1,4 +1,8 @@
 new Swiper ('.slider', {
-    slidesPerView: 2.6,
-    spaceBetween: 50,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    slidesPerView: 2.5,
+    spaceBetween: 60,
 });
