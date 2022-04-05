@@ -361,7 +361,7 @@ span{
 }
 .geek__wrapper {
     grid-area: wrapper;
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: space-between;
 }
@@ -1072,8 +1072,7 @@ span{
 }
 .design__wrapper-item {
     width: 385px;
-    height: 385px;
-    border: 1px dashed black;
+    height: 385px;    
     transition: 1s;
     position: relative;
 }
@@ -1091,15 +1090,16 @@ span{
     font-weight: 700;
     line-height: 20px;
     background-color: white;
-    display: none;
+    visibility: hidden;
 }
-.design__wrapper-button:hover {
-    transition: 1s;
-    display: block;
-}
+
 .design__wrapper-item:hover {
-    transition: 1s;
-    background-color: #F8F8F8;
+    transition: 0.2s;
+    background: #F1F4F9;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 .design__footer {
     grid-area: footer;
@@ -1165,4 +1165,13 @@ span{
 }
 .elwhite{
     background: url(../img/elwhite.png);   
+}
+
+.design__wrapper-item:hover .design__wrapper-button{
+    visibility: visible;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
