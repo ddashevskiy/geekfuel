@@ -1,4 +1,4 @@
 new Swiper ('.slider', {
-    slidesPerView: 2.7,
-    spaceBetween: 30,
+    slidesPerView: 2.6,
+    spaceBetween: 50,
 });
